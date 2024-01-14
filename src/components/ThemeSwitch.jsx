@@ -15,7 +15,7 @@ export default function ThemeSwitch() {
         (currentTheme === 'dark' ? (
           <MdLightMode
             onClick={() => setTheme('light')}
-            className="text-xl cursor-pointer hover:text-amber-600"
+            className="text-xl cursor-pointer hover:text-amber-300"
           />
         ) : (
           <MdDarkMode

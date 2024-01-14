@@ -14,7 +14,7 @@ export default function Header() {
       <div className="flex gap-4 items-center">
         <ThemeSwitch />
         <Link href={'/'} className="flex gap-1 items-center">
-          <span className="px-2 py-1 text-2xl font-bold bg-amber-400 rounded-lg">
+          <span className="px-2 py-1 text-2xl font-bold bg-amber-300 rounded-lg dark:bg-amber-500">
             IMDb
           </span>
           <span className="hidden text-xl sm:inline">Clone</span>
