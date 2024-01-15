@@ -16,7 +16,7 @@ export default function Card({ result }) {
           alt={result.title || result.name}
           priority={true}
         ></Image>
-        <div className="p-2">
+        <div className="p-2 mx-auto w-[510px] sm:w-full">
           <p className="line-clamp-2 text-md">{result.overview}</p>
           <h2 className="text-lg font-bold truncate">{result.title || result.name}</h2>
           <p className="flex items-center">
